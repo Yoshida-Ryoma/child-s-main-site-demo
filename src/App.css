@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  width: 1920px;
+  height: 113px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  position: fixed;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.main__font {
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub__font {
+  font-size: 30px;
+}
+
+.main__title {
+  font-size: 150px;
+}
+
+.sub__title {
+  font-size: 100px;
+}
+
+.block>.main__font {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.block {
+  padding-inline: 200px;
+}
+
+.App {
+  background-image: url(./components/img/長方形\ 2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header>p {
+  padding-left: 200px;
+  padding-right: 20px;
+  color: black;
+}
+
+header>ul {
+  display: flex;
+}
+
+header>ul>li {
+  padding-right: 75px;
+}
+
+header>ul>li>b>a {
+  color: black;
+}
+
+.home {
+  width: auto;
+  height: 1080px;
+}
+
+.home>.main__title {
+  padding-inline: 200px;
+  padding-top: 278px;
+  width: 517px;
+  height: 225px;
+}
+
+.home>.sub__title {
+  padding-inline: 200px;
+  width: 1228px;
+  height: 300px;
+}
+
+.home>.main__title, .home>.sub__title  {
+  color: black;
+}
+
+.about>div {
+  width: 1520px;
+  height: 700px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.menber>div {
+  display: flex;
+}
+
+.menber>div>div{
+  width: 453px;
+  height: 698px;
+  border: 1px solid black;
+  background-color: white;
+  margin-right: 79px;
+}
+
+.acutivity>div {
+  display: flex;
+}
+
+.acutivity>div>div {
+  width: 453px;
+  height: 323px;
+  border: 1px solid black;
+  background-color: white;
+  margin-right: 79px;
+}
+
+.acutivity>div>.div__2 {
+  margin-inline: 79px;
+}
+
+.contact {
+  padding-bottom: 80px;
+}
+
+.contact>form>input {
+  width: 1520px;
+  height: 80px;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 50px;
+}
+
+.contact>form>textarea {
+  width: 1520px;
+  height: 800px;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 50px;
+}
+
+footer>.block {
+  width: auto;
+  height: 691px;
+}
+
+footer>.block>ul {
+  padding-left: 0px;
+}
+
+footer>.block>.ul__2 {
+  padding-inline: 218px;
 }
